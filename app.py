@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import csv
 
 
 app = Flask(__name__)
+CORS(app)
 
 # 1. Your original prediction logic (unchanged)
 def predict(hours, attendance, previous_score, assignments):

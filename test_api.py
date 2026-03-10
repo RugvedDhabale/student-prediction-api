@@ -1,7 +1,7 @@
 import requests
 
 # The URL of your local server's predict route
-url = 'http://127.0.0.1:5000/predict'
+url = 'https://student-prediction-api-6pqy.onrender.com/predict'
 
 # The student data we want to send
 student_data = {
